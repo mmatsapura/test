@@ -1,2 +1,2 @@
 print('aaaa')
-print('ssssss')
+print('sssssss')
