@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05223789-7d0d-4ab5-946d-72f33ba12e68" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/ch2/tasks_proj/tests/func/test_count.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/ch2/tasks_proj/tests/func/test_count.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/ch3/b/tasks_proj/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/ch3/b/tasks_proj/tests/conftest.py" afterDir="false" />
-    </list>
+    <list default="true" id="05223789-7d0d-4ab5-946d-72f33ba12e68" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,22 +33,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for test.test_fruit_salad.executor&quot;: &quot;Debug&quot;,
-    &quot;Python tests.Python tests for test.test_string_only.executor&quot;: &quot;Debug&quot;,
-    &quot;Python tests.Python tests for test_add.test_add_returns_valid_id.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_add_variety.test_add_own.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_count.test_count_api_with_fixture.executor&quot;: &quot;Debug&quot;,
-    &quot;Python tests.Python tests for test_task.test_defaults.executor&quot;: &quot;Run&quot;,
-    &quot;Python.asyn.executor&quot;: &quot;Run&quot;,
-    &quot;Python.not asyn.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/user/cloud_taf&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test.test_fruit_salad.executor": "Debug",
+    "Python tests.Python tests for test.test_string_only.executor": "Debug",
+    "Python tests.Python tests for test_add.test_add_returns_valid_id.executor": "Run",
+    "Python tests.Python tests for test_add_variety.test_add_own.executor": "Run",
+    "Python tests.Python tests for test_count.test_count_api_with_fixture.executor": "Debug",
+    "Python tests.Python tests for test_task.test_defaults.executor": "Run",
+    "Python.asyn.executor": "Run",
+    "Python.not asyn.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/user/test",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python.not asyn">
     <configuration name="asyn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test" />
@@ -158,7 +152,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-5b207ade9991-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17890.14" />
+        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
       </set>
     </attachedChunks>
   </component>
