@@ -8,6 +8,7 @@ async def fn():
     # await fn2()
     print('four')
     await asyncio.sleep(1)
+    await asyncio.sleep(111)
     print('five')
     await asyncio.sleep(1)
 
