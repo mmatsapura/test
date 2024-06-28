@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05223789-7d0d-4ab5-946d-72f33ba12e68" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/test_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/ch2/tasks_proj/tests/func/test_count.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/ch2/tasks_proj/tests/func/test_count.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/ch3/b/tasks_proj/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/ch3/b/tasks_proj/tests/conftest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,18 +39,68 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_add.test_add_returns_valid_id.executor": "Run",
-    "Python tests.Python tests for test_add_variety.test_add_own.executor": "Run",
-    "Python tests.Python tests for test_task.test_defaults.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/user/cloud_taf",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test.test_fruit_salad.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Python tests for test.test_string_only.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Python tests for test_add.test_add_returns_valid_id.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_add_variety.test_add_own.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_count.test_count_api_with_fixture.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Python tests for test_task.test_defaults.executor&quot;: &quot;Run&quot;,
+    &quot;Python.asyn.executor&quot;: &quot;Run&quot;,
+    &quot;Python.not asyn.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/user/cloud_taf&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration name="Python tests for test_add_variety.test_add_own" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="Python.not asyn">
+    <configuration name="asyn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code/ch8_own" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/ch8_own/asyn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="not asyn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code/ch8_own" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/ch8_own/not asyn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_count.test_count_api_with_fixture" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -57,29 +111,47 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_add_variety.test_add_own&quot;" />
+      <option name="_new_target" value="&quot;test_count.test_count_api_with_fixture&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_task.test_defaults" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test.test_fruit_salad" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code/ch2/tasks_proj/tests/unit" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code/ch8_own" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_task.test_defaults&quot;" />
+      <option name="_new_target" value="&quot;test.test_fruit_salad&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test.test_string_only" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code/ch8_own" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.test_string_only&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_add_variety.test_add_own" />
-        <item itemvalue="Python tests.Python tests for test_task.test_defaults" />
+        <item itemvalue="Python.not asyn" />
+        <item itemvalue="Python.asyn" />
+        <item itemvalue="Python tests.Python tests for test.test_string_only" />
+        <item itemvalue="Python tests.Python tests for test.test_fruit_salad" />
+        <item itemvalue="Python tests.Python tests for test_count.test_count_api_with_fixture" />
       </list>
     </recent_temporary>
   </component>
@@ -100,5 +172,16 @@
       <updated>1718697333517</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/code/ch8_own/test.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
