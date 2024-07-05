@@ -4,6 +4,7 @@ import aiohttp
 
 cache = dict()
 
+another_cache_for_check_paster = {}
 
 async def request_remote():
     print("Will request the website to get status.")
