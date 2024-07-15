@@ -1,9 +1,11 @@
 """Command Line Interface (CLI) for tasks project."""
 
 from __future__ import print_function
+
+from contextlib import contextmanager
+
 import click
 import tasks.config
-from contextlib import contextmanager
 from tasks.api import Task
 
 

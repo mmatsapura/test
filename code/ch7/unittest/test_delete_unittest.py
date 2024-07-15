@@ -1,6 +1,7 @@
-import unittest
 import shutil
 import tempfile
+import unittest
+
 import tasks
 from tasks import Task
 

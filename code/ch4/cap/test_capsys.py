@@ -1,6 +1,7 @@
-import sys
-import pytest
 import random
+import sys
+
+import pytest
 
 
 def greeting(name):

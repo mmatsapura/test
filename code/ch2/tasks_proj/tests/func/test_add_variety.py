@@ -4,6 +4,7 @@ import pytest
 import tasks
 from tasks import Task
 
+
 @pytest.mark.parametrize('task',
                          (Task('sleep', done=True),
                           Task('wake', 'brian'),

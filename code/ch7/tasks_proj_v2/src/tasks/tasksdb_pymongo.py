@@ -1,9 +1,10 @@
 """Database wrapper for MongoDB for tasks project."""
 
 import os
-import pymongo
 import subprocess
 import time
+
+import pymongo
 
 
 class TasksDB_MongoDB():  # noqa: E801

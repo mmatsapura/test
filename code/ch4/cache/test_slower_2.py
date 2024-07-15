@@ -1,8 +1,9 @@
-import pytest
 import datetime
 import random
 import time
 from collections import namedtuple
+
+import pytest
 
 Duration = namedtuple('Duration', ['current', 'last'])
 

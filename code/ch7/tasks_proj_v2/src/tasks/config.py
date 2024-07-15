@@ -1,6 +1,7 @@
 """Handle configuration files for tasks CLI."""
 
 from collections import namedtuple
+
 try:
     from configparser import ConfigParser
 except ImportError:

@@ -1,6 +1,6 @@
 import asyncio
-
 from asyncio import Semaphore
+
 from aiohttp import ClientSession
 
 

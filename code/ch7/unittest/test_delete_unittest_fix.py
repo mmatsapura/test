@@ -1,5 +1,6 @@
-import pytest
 import unittest
+
+import pytest
 import tasks
 from tasks import Task
 

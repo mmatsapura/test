@@ -1,9 +1,10 @@
 """Database wrapper for MongoDB for tasks project."""
 
 import os
-import pymongo
 import subprocess
 import time
+
+import pymongo
 from bson.objectid import ObjectId
 
 

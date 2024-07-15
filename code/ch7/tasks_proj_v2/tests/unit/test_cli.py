@@ -1,9 +1,10 @@
-from click.testing import CliRunner
 from contextlib import contextmanager
+
 import pytest
-from tasks.api import Task
 import tasks.cli
 import tasks.config
+from click.testing import CliRunner
+from tasks.api import Task
 
 
 @contextmanager

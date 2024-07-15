@@ -3,7 +3,6 @@
 import pytest
 from pytest import approx
 
-
 testdata = [
     # x, y, expected
     (1.01, 2.01, 3.02),

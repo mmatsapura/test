@@ -1,7 +1,8 @@
 import datetime
-import pytest
 import random
 import time
+
+import pytest
 
 
 @pytest.fixture(autouse=True)

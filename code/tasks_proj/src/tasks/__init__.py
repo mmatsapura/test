@@ -1,18 +1,7 @@
 """Minimal Project Task Management."""
 
-from .api import (  # noqa: F401
-    Task,
-    TasksException,
-    add,
-    get,
-    list_tasks,
-    count,
-    update,
-    delete,
-    delete_all,
-    unique_id,
-    start_tasks_db,
-    stop_tasks_db
-)
+from .api import (Task, TasksException, add, count, delete,  # noqa: F401
+                  delete_all, get, list_tasks, start_tasks_db, stop_tasks_db,
+                  unique_id, update)
 
 __version__ = '0.1.0'

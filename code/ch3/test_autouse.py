@@ -1,7 +1,8 @@
 """Demonstrate autouse fixtures."""
 
-import pytest
 import time
+
+import pytest
 
 
 @pytest.fixture(autouse=True, scope='session')
