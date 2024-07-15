@@ -18,7 +18,7 @@ def check_duration(request, cache):
     last_duration = cache.get(key, None)
     cache.set(key, this_duration)
     if last_duration is not None:
-        errorstring = "test duration over 2x last duration"
+        errorstring = "tests duration over 2x last duration"
         assert this_duration <= last_duration * 2, errorstring
 
 

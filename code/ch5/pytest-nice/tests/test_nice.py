@@ -5,7 +5,7 @@ import pytest
 
 def test_pass_fail(testdir):
 
-    # create a temporary pytest test module
+    # create a temporary pytest tests module
     testdir.makepyfile("""
         def test_pass():
             assert 1 == 1

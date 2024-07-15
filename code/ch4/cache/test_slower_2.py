@@ -25,7 +25,7 @@ def check_duration(request, duration_cache):
     duration = (datetime.datetime.now() - start_time).total_seconds()
     d.current[nodeid] = duration
     if d.last.get(nodeid, None) is not None:
-        errorstring = "test duration over 2x last duration"
+        errorstring = "tests duration over 2x last duration"
         assert duration <= (d.last[nodeid] * 2), errorstring
 
 

@@ -6,7 +6,7 @@ def pytest_addoption(parser):
         "--stringinput",
         action="append",
         default=[],
-        help="list of stringinputs to pass to test functions",
+        help="list of stringinputs to pass to tests functions",
     )
 
 def pytest_generate_tests(metafunc):

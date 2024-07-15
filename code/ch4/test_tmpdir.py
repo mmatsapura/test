@@ -32,7 +32,7 @@ def test_tmpdir_factory(tmpdir_factory):
     base_temp = tmpdir_factory.getbasetemp()
     print('base:', base_temp)
 
-    # the rest of this test looks the same as the 'test_tmpdir()'
+    # the rest of this tests looks the same as the 'test_tmpdir()'
     # example except I'm using a_dir instead of tmpdir
 
     a_file = a_dir.join('something.txt')

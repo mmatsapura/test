@@ -10,7 +10,7 @@ def some_data():
 
 
 def test_some_data(some_data):
-    """Use fixture return value in a test."""
+    """Use fixture return value in a tests."""
     assert some_data == 42
 
 

@@ -27,8 +27,8 @@ def add(task):  # type: (Task) -> int
     if not ((task.owner is None) or
             isinstance(task.owner, string_types)):
         raise ValueError('task.owner must be string or None)')
-    # We test for this in ch5, so keep this commented out to let
-    # the ch5 test fail.
+    # We tests for this in ch5, so keep this commented out to let
+    # the ch5 tests fail.
     #
     # if not isinstance(task.done, bool):
     #     raise ValueError('task.done must be True or False')

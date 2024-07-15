@@ -9,7 +9,7 @@ def db_connect(tmpdir):
      yield
      tasks.stop_tasks_db()
 
-@pytest.mark.skip(reason='want to test usage of fixture')
+@pytest.mark.skip(reason='want to tests usage of fixture')
 @pytest.mark.parametrize('tasks_created, number_of_tasks',
      [
         ([Task('sleep', done=True), Task('wake', 'brian')], 2),

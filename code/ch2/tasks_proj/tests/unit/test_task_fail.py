@@ -1,4 +1,4 @@
-"""Use the Task type to show test failures."""
+"""Use the Task type to show tests failures."""
 from tasks import Task
 
 

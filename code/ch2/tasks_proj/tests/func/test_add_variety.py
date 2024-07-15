@@ -107,10 +107,10 @@ def test_add_6(task):
 
 @pytest.mark.parametrize('task', tasks_to_try, ids=task_ids)
 class TestAdd():
-    """Demonstrate parametrize and test classes."""
+    """Demonstrate parametrize and tests classes."""
 
     def test_equivalent(self, task):
-        """Similar test, just within a class."""
+        """Similar tests, just within a class."""
         task_id = tasks.add(task)
         t_from_db = tasks.get(task_id)
         assert equivalent(t_from_db, task)

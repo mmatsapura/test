@@ -17,19 +17,19 @@ def footer_session_scope():
 
 @pytest.fixture(autouse=True)
 def footer_function_scope():
-    """Report test durations after each function."""
+    """Report tests durations after each function."""
     start = time.time()
     yield
     stop = time.time()
     delta = stop - start
-    print('\ntest duration : {:0.3} seconds'.format(delta))
+    print('\ntests duration : {:0.3} seconds'.format(delta))
 
 
 def test_1():
-    """Simulate long-ish running test."""
+    """Simulate long-ish running tests."""
     time.sleep(1)
 
 
 def test_2():
-    """Simulate slightly longer test."""
+    """Simulate slightly longer tests."""
     time.sleep(1.23)
